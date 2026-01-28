@@ -1,0 +1,58 @@
+############################
+# GENERAL
+############################
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.log
+
+############################
+# PYTHON / DJANGO
+############################
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Archivos compilados
+__pycache__/
+*.py[cod]
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+
+# Migraciones (opcional, si NO quieres versionarlas)
+# **NO recomendado para producción**
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# Configuración local
+local_settings.py
+
+############################
+# NODE / REACT (CRA)
+############################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build de React
+build/
+
+############################
+# IDEs / EDITORES
+############################
+.vscode/
+.idea/
+*.swp
+*.swo
+
+############################
+# TESTING / COVERAGE
+############################
+coverage/
+.pytest_cache/
